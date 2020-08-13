@@ -55,7 +55,10 @@ console.log(reviews[5].feedback);
 reviews.push({ name: 'Tucker', rating: 3, feedback: 'Food was decent but the service was slow' });
 console.log(reviews);
 
-/* Task 5: Add the following feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays"
+/* Task 5: Add the following feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays" */
+
+reviews[7].feedback = "this place is chill with really cool people, great for getting work done on weekdays"
+console.log(reviews);
 
 /*  Task 6: Write a function to return a review based on the index of the review in the array.
 
